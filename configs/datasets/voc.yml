@@ -1,0 +1,21 @@
+metric: VOC
+map_type: 11point
+num_classes: 4
+
+TrainDataset:
+  !VOCDataSet
+    dataset_dir: /home/C/wangdz/PaddleDetection2/PaddleDetection_my/insulator
+    anno_path: /home/C/wangdz/PaddleDetection2/PaddleDetection_my/insulator/train.txt
+    label_list: /home/C/wangdz/PaddleDetection2/PaddleDetection_my/insulator/label_list.txt
+    data_fields: ['image', 'gt_bbox', 'gt_class', 'difficult']
+
+EvalDataset:
+  !VOCDataSet
+    dataset_dir: /home/C/wangdz/PaddleDetection2/PaddleDetection_my/insulator
+    anno_path: /home/C/wangdz/PaddleDetection2/PaddleDetection_my/insulator/val.txt
+    label_list: /home/C/wangdz/PaddleDetection2/PaddleDetection_my/insulator/label_list.txt
+    data_fields: ['image', 'gt_bbox', 'gt_class', 'difficult']
+
+TestDataset:
+  !ImageFolder
+    anno_path: /home/C/wangdz/PaddleDetection2/PaddleDetection_my/insulator/label_list.txt
