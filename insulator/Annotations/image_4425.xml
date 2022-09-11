@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<annotation>
+		<folder>driving_annotation_dataset</folder>
+		<filename>image_4425.jpg</filename>
+		<size>
+			<width>1280</width>
+			<height>720</height>
+			<depth>3</depth>
+		</size>
+		<object>
+			<name>defect_disc</name>
+			<pose>Unspecified</pose>
+			<truncated>0</truncated>
+			<difficult>0</difficult>
+			<bndbox>
+				<xmin>520</xmin>
+				<ymin>259</ymin>
+				<xmax>789</xmax>
+				<ymax>447</ymax>
+			</bndbox>
+		</object>
+	</annotation>

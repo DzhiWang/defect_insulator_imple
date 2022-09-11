@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<annotation>
+		<folder>driving_annotation_dataset</folder>
+		<filename>image_1212.jpg</filename>
+		<size>
+			<width>1280</width>
+			<height>720</height>
+			<depth>3</depth>
+		</size>
+		<object>
+			<name>insulator_pin</name>
+			<pose>Unspecified</pose>
+			<truncated>0</truncated>
+			<difficult>0</difficult>
+			<bndbox>
+				<xmin>287</xmin>
+				<ymin>106</ymin>
+				<xmax>924</xmax>
+				<ymax>648</ymax>
+			</bndbox>
+		</object>
+	</annotation>
